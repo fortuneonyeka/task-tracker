@@ -5,7 +5,7 @@ const Header = ({title, onAdd, showAdd}) => {
   return <div>
     <header className="header">
       <h1>{title}</h1>
-     <Button color={showAdd ? "red" :"green"} text={showAdd ? 'Close' : 'Add'}  onClick={onAdd}/>
+     <Button color={showAdd ? "red" :"green"} text={showAdd ? 'Close Form' : 'Add Task'}  onClick={onAdd}/>
      
       {/* <h1 style={headingStyling}>{title}</h1> */}
       {/* OR */}

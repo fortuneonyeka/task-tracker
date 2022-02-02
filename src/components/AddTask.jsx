@@ -34,10 +34,10 @@ import {useState} from 'react';
       </div>
       <div className="form-control">
           <label>Day</label>
-            <input type="text" placeholder="Add Day and TimeEnter Task" value={day} onChange={(e) => setDay(e.target.value)}/>
+            <input type="text" placeholder="Add Day and Time Of The Task" value={day} onChange={(e) => setDay(e.target.value)}/>
       </div>
       <div className="form-control form-control-check">
-          <label>Reminder</label>
+          <label>Set Reminder</label>
             <input type="checkbox" checked={reminder} value={reminder} onChange={(e) => setReminder(e.currentTarget.checked)}/>
       </div>
 

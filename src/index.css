@@ -36,13 +36,14 @@ body {
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   font-family: inherit;
   width: 100%;
+  box-shadow: 5px 10px silver;
 }
 
-.btn:focus {
-  outline: none;
+.btn:hover {
+  background-color: green;
 }
 
 .btn:active {
@@ -90,6 +91,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.checked {
+  box-shadow: 5px 10px red;
 }
 
 .form-control-check label {
